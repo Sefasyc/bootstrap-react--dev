@@ -1,0 +1,9 @@
+@use "../../sass/variables" as v;
+
+.nav-link {
+   color: v.$color-nav-link;
+
+  &:hover{
+   color: v.$color-nav-link-h;
+  }
+}
