@@ -1,4 +1,4 @@
-import {} from 'react'
+  import {} from 'react'
 import "./sass/style.scss";
 import {Navbar} from "./sections/navbar/Navbar";
 import {Hero} from "./sections/hero/Hero";
@@ -7,7 +7,9 @@ import {Footer} from "./sections/footer/Footer";
 
 
 
- function App() {
+
+
+export function App() {
   
    return (
      <>
